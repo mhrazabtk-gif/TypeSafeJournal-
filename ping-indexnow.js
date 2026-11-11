@@ -2,9 +2,9 @@ const fs = require('fs');
 const path = require('path');
 const https = require('https');
 
-const HOST = 'type-safe-journal.pages.dev';
+const HOST = 'type-safe-journal.pageaura.xyz';
 const KEY = '252c618c413048458eae0a2d2ea925b2';
-const KEY_LOCATION = `https://type-safe-journal.pages.dev/252c618c413048458eae0a2d2ea925b2.txt`;
+const KEY_LOCATION = `https://type-safe-journal.pageaura.xyz/252c618c413048458eae0a2d2ea925b2.txt`;
 
 const urlsFile = path.join(__dirname, 'urls.txt');
 let urlList = [];
