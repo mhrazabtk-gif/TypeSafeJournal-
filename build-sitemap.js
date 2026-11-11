@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const DOMAIN = 'https://type-safe-journal.pages.dev';
+const DOMAIN = 'https://type-safe-journal.pageaura.xyz';
 const KEY = '252c618c413048458eae0a2d2ea925b2';
 
 const ROOT = __dirname;
@@ -45,7 +45,7 @@ for (const value of rawUrls) {
   }
 
   if (
-    url.hostname.toLowerCase() !== 'type-safe-journal.pages.dev' ||
+    url.hostname.toLowerCase() !== 'type-safe-journal.pageaura.xyz' ||
     !['http:', 'https:'].includes(url.protocol) ||
     url.username ||
     url.password
